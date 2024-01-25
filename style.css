@@ -1,0 +1,95 @@
+#calculator {
+    width:270px;
+    padding:7.5px;
+    background-color: #35271e;
+    border-radius: 20px;
+}
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:2px;
+    padding-top: 10px;
+}
+
+.num, .operator, .clear,#equals{
+    height: 36px;
+    width:65px;
+    font-size:15px;
+}
+.num, .back{
+    background-color: #a67b5b;
+    color:white;
+}
+.operator{
+    background-color: #bd7c3c;
+    color:#48331e;
+}
+#equals{
+    background-color: #ceb193;
+    color:#4c3a2b;
+    border-bottom-right-radius: 15px;
+}
+.clear{
+    background-color: #ceb193;
+    color:#4c3a2b;
+    border-top-left-radius: 15px;
+}
+ion-icon{
+    --ionicon-stroke-width: 40px;
+    font-size: 20px;
+    color: #35271e;
+}
+body{
+    background-color: #f4f3d7;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input{
+    height:80px;
+    margin-top: 2px;
+    border-radius: 15px;
+    border:#ad7a59 solid;
+    background-color: #f1e9d4;
+}
+.in{
+    border-bottom: 1px #786e5e solid;
+    height:45px;
+    display:flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button:hover{
+    transform: scale(1.03);
+}
+.result{
+    display:flex;
+    justify-content: space-between;
+}
+.result>ion-icon{
+    padding:8px;
+}
+#result{
+    margin: 9px;
+    padding-right:5px;
+    font-weight: bold;
+}
+.in>p{
+    padding-right:15px;
+    padding-top:10px;
+    font-weight: bold;
+}
+.operand{
+    color:#aa815f;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin:120px;
+}
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    
+}
